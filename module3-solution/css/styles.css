@@ -85,3 +85,25 @@ button, select {
 .navbar-header {
   padding-bottom: 15px;
 }
+
+h3 {
+	float: right;
+	padding: 5px 20px 5px 20px;
+	margin-bottom: 20px;
+	font-size: 125%;
+	font-family: serif;
+}
+
+section {
+	border: 1px solid black;
+	background-color: #03ACFC;
+	height: 225px;
+	overflow: auto;
+}
+
+p {
+	clear: right;
+	font-family: serif;
+	width: 85%;
+	padding-left: 20px;
+}
