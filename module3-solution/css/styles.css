@@ -114,6 +114,7 @@ p {
 
 a {
 	color: #000000;
+	text-decoration: underline;
 }
 
 /*** DESKTOP VIEW ***/
