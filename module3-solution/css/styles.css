@@ -112,6 +112,10 @@ p {
 	text-align: center;
 }
 
+#link1, #link2, #link3 {
+	text-color: #000000;
+}
+
 /*** DESKTOP VIEW ***/
 @media (min-width: 992px) {
 	#Sushi {
