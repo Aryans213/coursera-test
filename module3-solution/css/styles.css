@@ -108,6 +108,10 @@ p {
 	padding-left: 20px;
 }
 
+#Chicken, #Beef, #Sushi {
+	text-align: center;
+}
+
 /*** DESKTOP VIEW ***/
 @media (min-width: 992px) {
 	#Sushi {
