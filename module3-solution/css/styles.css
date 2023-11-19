@@ -87,7 +87,7 @@ button, select {
 }
 
 h3 {
-	text-allign: center;
+	float: center;
 	padding: 5px 20px 5px 20px;
 	margin-bottom: 20px;
 	font-size: 125%;
