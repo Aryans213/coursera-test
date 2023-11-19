@@ -83,3 +83,7 @@ button, select {
   clear: both;
   margin-top: -30px;
 }
+
+.navbar-header {
+  padding-bottom: 15px;
+}
