@@ -151,6 +151,10 @@ a {
   text-decoration: none;
 }
 
+.navbar ul li {
+  display: block;
+}
+
 /*** DESKTOP VIEW ***/
 @media (min-width: 992px) {
 	#Sushi {
