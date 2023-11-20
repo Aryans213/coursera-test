@@ -15,7 +15,7 @@ h2 {
 
 section {
 	border: 1px solid black;
-	background-color: lightgrey;
+	background-color: gray;
 	height: 225px;
 	overflow: auto;
 }
