@@ -131,30 +131,6 @@ a {
   list-style: none;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 100%;
-  display: none
-}
-
-.navbar li {
-  display: inline-block;
-}
-
-.navbar li a {
-  color: white;
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-.navbar ul li {
-  display: block;
-}
-
 /*** DESKTOP VIEW ***/
 @media (min-width: 992px) {
 	#Sushi {
