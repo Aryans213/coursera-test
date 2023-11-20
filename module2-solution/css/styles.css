@@ -15,7 +15,7 @@ h2 {
 
 section {
 	border: 1px solid black;
-	background-color: #03ACFC;
+	background-color: lightgrey;
 	height: 225px;
 	overflow: auto;
 }
@@ -32,16 +32,16 @@ p {
 }
 
 #Chicken {
-    background-color: #185C39;
+    background-color: pink;
 }
 
 #Beef {
-    background-color: #5C3C38;
+    background-color: red;
     color: white;
 }
 
 #Sushi {
-    background-color: #AC16CA;
+    background-color: yellow;
 }
 
 /*** large devices only ****/
