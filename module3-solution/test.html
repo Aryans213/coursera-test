@@ -1,60 +1,80 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food,LCC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link href="css/test.css" rel="stylesheet">
-  </head>
-  <body>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <header>
-      
-      <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <div class="navbar-header">
-            <a id="navbar-hed" class="navbar-brand" href="index.html"><h1>Food,LCC</h1></a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul  class=" navbar-nav me-auto mb-2 mb-lg-0  d-lg-none">
-              <li>
-                <a href="#chick" class="nav-link" aria-current="page" ><p>chicken</p></a>
-              </li>
-              <li>
-                <a href="#beef" class="nav-link" aria-current="page" ><p>beef</p></a>
-              </li>
-              <li>
-                <a href="#sushi" class="nav-link" aria-current="page" ><p>sushi</p></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container">
-        <h2>our menu</h2>
-        <div class="row">
-            <div id="box1" class="col-md-6 col-sm-12 col-lg-4 col-xl-4">
-              <h3 id="chick">chicken</h3>
-              <p>Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes. <a href="#">back to the top</a></p>
-            </div>
-            <div id="box2" class="col-md-6 col-sm-12 col-lg-4 col-xl-4">
-              <h3 id="beef">beef</h3>
-              <p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients. <a href="#">back to the top</a></p>
-            </div>
-            <div id="box3" class="col-md-12 col-sm-12 col-lg-4 col-xl-4">
-              <h3 id="sushi">sushi</h3>
-              <p>Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari, or sumeshi. <a href="#">back to the top</a></p>
-            </div>
-        </div>
-      </div>
-    </main>
-  </body>
+	<title>FOOD LLC</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default navbar-expand-lg">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food,LLC</h1></a>
+					</div>
+				 
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            		<span class="sr-only">Toggle navigation</span>
+            		<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+          			<span class="icon-bar"></span>
+          			
+         		 </button>	
+				</div>
+
+		        <div class="collapse navbar-collaps d-block-nav" id="collapsable-nav">
+		           <ul id="nav-list" class="nav navbar-nav navbar-right">
+		            <li>
+		              <a href="#chicken-tile">
+		                <span class=""></span><br class="hidden-xs">Chicken</a>
+		            </li>
+		            <li>
+		              <a href="#beef-tile">
+		                <span class=""></span><br class="hidden-xs"> Beef</a>
+		            </li>
+		            <li>
+		              <a href="#sushi-tile">
+		                <span class=""></span><br class="hidden-xs"> Sushi</a>
+		            </li>
+		            
+		          </ul><!-- #nav-list -->
+		        </div><!-- .collapse .navbar-collapse -->			
+			</div>
+		</nav>
+	</header>
+	<div id="main-content"  class="container">
+		<div id="home-tiles" class="row">
+			<h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+	        <div id="chicken-tile"><span><h3 class="text-center"> Chicken</h3></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu arcu et odio malesuada efficitur non eget felis. Phasellus ligula velit, auctor id maximus ac, maximus vitae sapien. Maecenas luctus dolor vel ipsum porttitor, sit amet efficitur nunc tincidunt. Pellentesque volutpat commodo semper. Ut lobortis imperdiet eros. Duis ac volutpat nibh, maximus aliquam lectus. Etiam vitae libero justo. Aliquam iaculis tristique libero et dignissim. Sed gravida leo non tristique ultricies. Vestibulum consectetur massa id felis venenatis, vel auctor est pulvinar. Nullam eget leo arcu.
+	        <br><br>
+	        (End of The Chicken Section)<a href="index.html">Back to Top</a>
+	        </div>
+	        </div>
+	        <div class="col-md-4 col-sm-6 col-xs-12">
+	        <div id="beef-tile"><span><h3 class="text-center"> Beef</h3></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu arcu et odio malesuada efficitur non eget felis. Phasellus ligula velit, auctor id maximus ac, maximus vitae sapien. Maecenas luctus dolor vel ipsum porttitor, sit amet efficitur nunc tincidunt. Pellentesque volutpat commodo semper. Ut lobortis imperdiet eros. Duis ac volutpat nibh, maximus aliquam lectus. Etiam vitae libero justo. Aliquam iaculis tristique libero et dignissim. Sed gravida leo non tristique ultricies. Vestibulum consectetur massa id felis venenatis, vel auctor est pulvinar. Nullam eget leo arcu.
+	        <br><br>
+	        (End of The Beef Section) <a href="index.html">Back to Top</a>
+	        </div>
+	        </div>
+	        <div class="col-md-4 col-sm-12 col-xs-12">
+	        <div id="sushi-tile"><span><h3 class="text-center"> Sushi</h3></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu arcu et odio malesuada efficitur non eget felis. Phasellus ligula velit, auctor id maximus ac, maximus vitae sapien. Maecenas luctus dolor vel ipsum porttitor, sit amet efficitur nunc tincidunt. Pellentesque volutpat commodo semper. Ut lobortis imperdiet eros. Duis ac volutpat nibh, maximus aliquam lectus. Etiam vitae libero justo. Aliquam iaculis tristique libero et dignissim. Sed gravida leo non tristique ultricies. Vestibulum consectetur massa id felis venenatis, vel auctor est pulvinar. Nullam eget leo arcu.
+	        <br><br>
+	        (End of The Sushi Section) <a href="index.html">Back to Top</a>
+	        </div>
+	        </div>
+	        
+		</div>
+	</div>
+ <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  
+</body>
 </html>
