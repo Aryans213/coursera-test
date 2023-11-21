@@ -1,110 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #DBE2EF;
-}
-a, a:hover{
-    text-decoration: none;
-    color: inherit;
-    color: #fff;
-}
-p a{
-    text-decoration: underline;
-    color: #112D4E;
-    font-size: 14px;
-}
-p a:hover{
-    color: #000;
-}
-ul{
-    list-style: none;
-}
- ul li{
-    text-align: center;
-    padding: 5px;
-    font-size: 18px;
-    text-transform: capitalize ;
-    transition:  0.3s ease  padding-left;
-}
-ul li:not(:last-child){
-    border-bottom: 1px solid #fff;
-    border-width: 80%;
-}
-ul li:hover{
-    background-color: #3F72AF;
-    padding-left:20px ;
-}
-p{
-    color: #fff;
-}
-#nav{
-    background: #112D4E !important;
-    box-shadow: 0 1px 2px rgba(0,0,0,.1);
-}
-#navbar-hed h1{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgb(44, 213, 235);
-    text-align: center;
-    margin-top: 30px;
 
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #a3e221;
+  font-family: 'Oxygen', sans-serif;
 }
-.navbar-toggler{
-    background-color: white;
+/*********Header********/
+#header-nav {
+  background-color:#c3b1e1 ;
+  border-radius: 0;
+  border: 0;
 }
-h2{
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgb(44, 213, 235);
-    text-align: center;
-    margin: 50px;
+.navbar-brand {
+  padding-top: 25px;
 }
-.row{
-    margin: 50px;
-  justify-content: center;
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-decoration: none;
 }
-#box1,#box2 , #box3{
-    background-color: #3F72AF;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
 
+/********* Home ********/
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
 }
- h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgb(44, 213, 235);
-    text-align: center;
-    margin: 10px;
+@media (min-width: 720px)
+{
+  .d-block-nav, .navbar-toggler
+  {
+    display: none;
+  }
 }
-@media (min-width:992px){
-.row {
-    flex-wrap: nowrap;
-}
-
-}
-@media (min-width:720px)and (max-width:991px){
-    #box1,#box2{
-        width: calc(50% - 20px);
-    }
-    #box3{
-        width: calc(100% - 20px);
-    }
-
-}
-@media (max-width:600px){
-    #box1,#box2 , #box3{
-       height: 400px;
-       text-align: center;
-    }
-}
-```
-```
